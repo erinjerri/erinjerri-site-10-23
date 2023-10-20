@@ -22,7 +22,7 @@ const generateTitle: GenerateTitle = () => {
 
 const mockModulePath = path.resolve(__dirname, './emptyModuleMock.js')
 
-xport default buildConfig({
+export default buildConfig({
   admin: {
     user: Users.slug,
     components: {
